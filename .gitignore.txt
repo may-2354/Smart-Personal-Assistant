@@ -1,0 +1,57 @@
+# =========================
+# Backend (Python/FastAPI)
+# =========================
+
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.Python
+backend/env/
+backend/venv/
+backend/.venv/
+backend/.env
+backend/*.db
+backend/*.sqlite3
+backend/.pytest_cache/
+
+# =========================
+# Frontend (Flutter)
+# =========================
+
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/.idea/
+frontend/.vscode/
+frontend/*.iml
+
+# Flutter generated
+frontend/android/.gradle/
+frontend/android/app/debug/
+frontend/android/app/profile/
+frontend/android/app/release/
+
+# =========================
+# General
+# =========================
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Logs
+*.log
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
